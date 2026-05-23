@@ -11,9 +11,7 @@
 #define OCR_STOP        3000
 #define OCR_DIR_OPEN    2400
 #define OCR_DIR_CLOSE   3600
-#define ROT_TIME_MS     3
-
-+00
+#define ROT_TIME_MS     300
 
 void servo_init() {
     PORTB &= ~(1 << PB1);
